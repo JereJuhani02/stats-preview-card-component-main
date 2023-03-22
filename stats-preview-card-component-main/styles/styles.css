@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+.Center {
+  background-color: hsl(244, 38%, 16%);
+  height: 446px;
+  width: 1120px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 10px;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+img {
+  float: right;
+  border-radius: 0px 10px 10px 0px;
+  filter: hue-rotate(60deg);
+}
+
+.stats {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+html body {
+  background-color: hsl(233, 47%, 7%);
+}
+html h1 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  margin-top: 70px;
+  margin-left: 25px;
+}
+html p {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.75);
+}/*# sourceMappingURL=styles.css.map */

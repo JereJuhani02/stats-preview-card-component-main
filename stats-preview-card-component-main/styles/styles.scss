@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+$backgroundcolor: hsl(233, 47%, 7%);
+$cardbackground: hsl(244, 38%, 16%);
+$accentcolor: hsl(277, 64%, 61%);
+$fontcolor1: hsl(0, 0%, 100%);
+$fontcolor2: hsla(0, 0%, 100%, 0.75);
+$fontcolor3: hsla(0, 0%, 100%, 0.6);
+
+$inter: 'Inter', sans-serif;
+$lexend-deca: 'Lexend Deca', sans-serif;
+
+.Center {
+  background-color: $cardbackground;
+  height: 446px;
+  width: 1120px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 10px;
+}
+
+span {
+  color: $accentcolor;
+}
+
+img {
+  float: right;
+  border-radius: 0px 10px 10px 0px;
+  filter: hue-rotate(60deg);
+}
+
+.stats {
+  color: $fontcolor3;
+}
+
+html {
+  body {
+    background-color: $backgroundcolor;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: $inter;
+    font-weight: 700;
+    color: $fontcolor1;
+    margin-top: 70px;
+    margin-left: 25px;
+  }
+
+  p {
+    font-size: 15px;
+    font-family: $lexend-deca;
+    text-align: center;
+    color: $fontcolor2;
+  }
+}
