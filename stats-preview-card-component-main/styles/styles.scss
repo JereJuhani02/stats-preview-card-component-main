@@ -29,11 +29,39 @@ span {
 img {
   float: right;
   border-radius: 0px 10px 10px 0px;
-  filter: hue-rotate(60deg);
+  opacity: 0.6;
+}
+
+.overlay {
+  background-color: $accentcolor;
+  border-radius: 0px 10px 10px 0px;
+  position: fixed;
+  position: absolute;
+  opacity: 0.5;
+  height: 100%;
+  width:  540px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.header {
+  word-break: break-word;
+  margin: auto 0;
+  line-height: 1.6;
+  padding-top: 55px;
+  padding-left: 60px;
+  padding-right: 700px;
 }
 
 .stats {
-  color: $fontcolor3;
+  color: $fontcolor1;
+  column-count: 3;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
 }
 
 html {
@@ -42,18 +70,27 @@ html {
   }
 
   h1 {
-    text-align: center;
     font-family: $inter;
     font-weight: 700;
     color: $fontcolor1;
-    margin-top: 70px;
-    margin-left: 25px;
+    line-height: normal;
+  }
+  
+  h2 {
+    font-weight: 400;
+    font-family: $inter;
   }
 
   p {
     font-size: 15px;
     font-family: $lexend-deca;
-    text-align: center;
-    color: $fontcolor2;
+    color: $fontcolor3;
+  }
+  
+  ul > li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 65px;
+    line-height: 0.6;
   }
 }
