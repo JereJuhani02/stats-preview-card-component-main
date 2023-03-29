@@ -11,8 +11,8 @@ $lexend-deca: 'Lexend Deca', sans-serif;
 
 .Center {
   background-color: $cardbackground;
-  height: 446px;
-  width: 1120px;
+  height: 27.9em;
+  width: 1110px;
   margin: auto;
   position: absolute;
   left: 0;
@@ -29,7 +29,6 @@ span {
 img {
   float: right;
   border-radius: 0px 10px 10px 0px;
-  opacity: 0.6;
 }
 
 .overlay {
@@ -39,29 +38,26 @@ img {
   position: absolute;
   opacity: 0.5;
   height: 100%;
-  width:  540px;
+  width: 540px;
   top: 0;
   right: 0;
   bottom: 0;
 }
 
 .header {
+  width: 360px;
   word-break: break-word;
-  margin: auto 0;
-  line-height: 1.6;
-  padding-top: 55px;
-  padding-left: 60px;
+  margin: auto;
+  line-height: 1.5;
+  padding-top: 50px;
+  padding-left: 75px;
   padding-right: 700px;
 }
 
 .stats {
   color: $fontcolor1;
-  column-count: 3;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-left: 20px;
+  padding-top: 35px;
+  padding-left: 30px;
 }
 
 html {
@@ -73,11 +69,10 @@ html {
     font-family: $inter;
     font-weight: 700;
     color: $fontcolor1;
-    line-height: normal;
+    line-height: 1.5;
   }
-  
+
   h2 {
-    font-weight: 400;
     font-family: $inter;
   }
 
@@ -85,12 +80,29 @@ html {
     font-size: 15px;
     font-family: $lexend-deca;
     color: $fontcolor3;
+    font-weight: 400;
   }
-  
-  ul > li{
+
+  li p {
+    font-family: $lexend-deca;
+    font-weight: normal;
+  }
+
+  ul>li {
     list-style-type: none;
     display: inline-block;
-    padding-right: 65px;
-    line-height: 0.6;
+    padding-right: 5%;
+    line-height: 0.4;
   }
+}
+
+.attribution {
+  text-align: center;
+  font-size: 11px;
+  position: static;
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
