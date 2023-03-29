@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
 .Center {
   background-color: hsl(244, 38%, 16%);
-  height: 446px;
-  width: 1120px;
+  height: 27.9em;
+  width: 1110px;
   margin: auto;
   position: absolute;
   left: 0;
@@ -19,7 +19,6 @@ span {
 img {
   float: right;
   border-radius: 0px 10px 10px 0px;
-  opacity: 0.6;
 }
 
 .overlay {
@@ -36,23 +35,19 @@ img {
 }
 
 .header {
+  width: 360px;
   word-break: break-word;
-  margin: auto 0;
-  line-height: 1.6;
-  padding-top: 55px;
-  padding-left: 60px;
+  margin: auto;
+  line-height: 1.5;
+  padding-top: 50px;
+  padding-left: 75px;
   padding-right: 700px;
 }
 
 .stats {
   color: hsl(0, 0%, 100%);
-  -moz-column-count: 3;
-       column-count: 3;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-left: 20px;
+  padding-top: 35px;
+  padding-left: 30px;
 }
 
 html body {
@@ -62,20 +57,35 @@ html h1 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   color: hsl(0, 0%, 100%);
-  line-height: normal;
+  line-height: 1.5;
 }
 html h2 {
-  font-weight: 400;
   font-family: "Inter", sans-serif;
 }
 html p {
   font-size: 15px;
   font-family: "Lexend Deca", sans-serif;
   color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 400;
+}
+html li p {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: normal;
 }
 html ul > li {
   list-style-type: none;
   display: inline-block;
-  padding-right: 65px;
-  line-height: 0.6;
+  padding-right: 5%;
+  line-height: 0.4;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 11px;
+  position: static;
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }/*# sourceMappingURL=styles.css.map */
